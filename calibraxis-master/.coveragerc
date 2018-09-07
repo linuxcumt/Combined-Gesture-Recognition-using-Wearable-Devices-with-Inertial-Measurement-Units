@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = calibraxis
+include = */calibraxis/*
+omit =
+    */setup.py

@@ -1,0 +1,16 @@
+[
+  "tests/test_calib.py::test_calibration_points_1", 
+  "tests/test_calib.py::test_calibration_points_1_scaled", 
+  "tests/test_calib.py::test_calibration_points_2", 
+  "tests/test_calib.py::test_calibration_points_2_scaled", 
+  "tests/test_calib.py::test_recalibration_points_2", 
+  "tests/test_calib.py::test_add_points_1", 
+  "tests/test_calib.py::test_add_points_2", 
+  "tests/test_calib.py::test_add_points_3", 
+  "tests/test_calib.py::test_add_points_4", 
+  "tests/test_calib.py::test_add_points_5", 
+  "tests/test_calib.py::test_apply", 
+  "tests/test_calib.py::test_batch_apply", 
+  "tests/test_calib.py::test_error_to_few_points", 
+  "tests/test_calib.py::test_verbose_prints_progress"
+]
