@@ -1,7 +1,7 @@
 # Combined-Gesture-Recognition-using-Wearable-Devices-with-Inertial-Measurement-Units
 <h3>Requirement:</h3> <br />
 
-
+*** Run on python 2.7<br />
   sudo apt-get install python-xlib<br />
   pip install pynput==1.2<br />
   sudo apt-get install python-pip libglib2.0-dev<br />
@@ -13,7 +13,26 @@
   sudo apt-get install python-opencv<br />
   sudo apt-get install python-qt4<br />
   pip install pyqtgraph<br />
+
+<h3>File Description: </h3><br />
   
+  CGRrealtime.py : Recognize gesture in real-time.Load the DTW pattern: JayDTW.dat<br /><br />
+  QTRealLine.py : Draw the Real-Time curve using pyqt & pyqtgraph for accelerometer, gyroscope data and Euler angle(Yaw,Roll Pitch) <br /> <br />
+  QTRealTimeScatter.py : Draw the scatter data to see if the magnetometer is calibrated successfully<br /><br />
+  QTwebcam.py : Draw the Real-Time curve and captrue the video by webcam<br /><br />
+  openglEuler.py : Combined OpenGL and PYQT. Can demo the Gimbal Lock problem<br />
+  It can show data transformed from sensor frame to be a global frame by multiplied rotation matrix<br /> <br />
+  Mahony.py : a python library for Madgwick and Mahony. It repharses from C <a href=http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/> x-io Technologies </a> <br /> <br />
+*** Maybe I will write a document to elaborate on Madgwick and the math of rotation.<br />
+  The template of drawing real-time can be find in the other <a href=https://github.com/nthuepl/Realtime-Plot-Template> github repository </a>  <br /><br />
+  
+  <h4>The Offline:</h4><br />  
+  Offline/Jay/ : save all motion data<br />  <br /> <br />
+  QTofflineRealLine.py : To create the DTW pattern, and test the accuracy of the motion data<br /> <br /><br />
+  
+
+  
+ 
   
 <h3>Issue: </h3><br />
 
