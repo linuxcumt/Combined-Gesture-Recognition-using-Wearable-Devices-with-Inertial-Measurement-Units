@@ -1,4 +1,16 @@
 # Combined-Gesture-Recognition-using-Wearable-Devices-with-Inertial-Measurement-Units
+
+<h3>Introduction:</h3> <br />
+事先定義好幾個基本動作，並且藉由這些基本動作組成不同的 複合型手勢。理論上，我們只需要做每個基本手勢一次就可以了。<br />
+複合型手勢 則會將其切割成好幾個基本手勢再做辨識。<br />
+切割手勢的方式 Threshold 以及 angle<br />
+辨識的方法使用 DTW(Dynamic Time Wrapping)<br />
+*切割的方法 : 如果用deep learning 可能會需要 複合型手勢 切割的時間點的ground truth(不易取得，可以利用攝影機，webcam)，且讓計算成本更高了。我們定義出來的基本手勢是簡單的，因此採用threshold base 以及angle 來做切割。<br /><br />
+*辨識應該可以換成其他的 ML model,是因為DTW適合比對不同長度的sequence data.如果換成其他ML，有可能得收集更多的資料，要做基本手勢好幾次。<br /><br />
+
+
+
+
 <h3>Requirement:</h3> <br />
 
 *** Run on python 2.7<br />
